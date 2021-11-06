@@ -1,0 +1,46 @@
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body, h1, h2, h3, h4, a{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*error section*/
+
+.error_section{
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 100vh;
+    padding: 100px;
+}
+.error_section h1{
+    font-size: 150px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.error_section h1 span{
+    color: #fd4b14;
+}
+.error_section h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+.error_section a{
+    color: white;
+    padding: 10px 25px;
+    transition: all 0.3s;
+    border-radius: 50px;
+    font-size: 16px;
+    background-color: #fd4b14;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.error_section a:hover{
+    background-color: #ff2a00;
+}
